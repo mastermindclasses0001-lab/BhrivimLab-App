@@ -29,7 +29,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Build APK
-        run: flet build apk --project-name "BhrivimLab" --org "com.bhrivimlab"
+        run: flet build apk
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
