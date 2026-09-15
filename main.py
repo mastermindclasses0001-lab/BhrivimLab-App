@@ -5,7 +5,7 @@ def main(page: ft.Page):
     page.padding = 0
     
     wv = ft.WebView(
-        url="https://www.bhrivimlab.com",  # <-- ASLI LINK ZAROOR CHECK KAREIN
+        url="https://www.bhrivimlab.com", 
         expand=True
     )
     
