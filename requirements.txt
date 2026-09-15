@@ -1,2 +1,2 @@
-flet
-flet-webview
+flet==0.28.3
+flet-webview==0.1.0
