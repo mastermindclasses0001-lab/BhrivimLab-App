@@ -1,14 +1,16 @@
 import flet as ft
+import flet_webview as fwv
 
 def main(page: ft.Page):
     page.title = "BhrivimLab"
     page.padding = 0
     
-    wv = ft.WebView(
+    wv = fwv.WebView(
         url="https://www.bhrivimlab.com", 
         expand=True
     )
     
     page.add(wv)
 
-ft.app(target=main)
+# Naya command jo latest Flet me use hota hai
+ft.run(main)
