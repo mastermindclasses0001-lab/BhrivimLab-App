@@ -3,13 +3,13 @@ import flet_webview as fwv
 
 def main(page: ft.Page):
     page.title = "BhrivimLab"
+    page.padding = 0
     
     wv = fwv.WebView(
-        url="https://www.bhrivimlab.com",  # <-- YAHAN APNI ASLI WEBSITE KA LINK DAALEIN
+        url="https://www.bhrivimlab.com",  # <-- ASLI LINK ZAROOR CHECK KAREIN
         expand=True
     )
     
     page.add(wv)
 
-# Naya command jo V1 me officially use hota hai
-ft.run(main)
+ft.app(target=main)
